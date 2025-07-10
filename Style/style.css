@@ -9,8 +9,15 @@
 
 /* shared style */
 
+.secondary_bg{
+  background-color: #FFF8F3;
+}
+
 .text_primary{
   color: #FD6E0A;
+}
+.text-center{
+  text-align: center;
 }
 
 .dark_1{
@@ -31,12 +38,31 @@
   color: white;
   padding: 18px 35px;
   border-radius: 5px;
+  border: none;
 }
+
+/* Main Style */
+.main{
+  max-width: 1140px;
+  margin: 0 230px;
+}
+
 /* header_style */
 .header{
   background-image: url(../images/developer.png) , url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left , bottom right;
+}
+
+.section_title{
+  font-size: 35px;
+  font-weight: 800;
+  color: #181818;
+}
+
+.section_description{
+  font-size: 18px;
+  color: #757575;
 }
 /* nav style */
 nav{
@@ -65,6 +91,8 @@ nav li a{
   text-decoration: none;
   font-size: 20px;
 }
+
+
 /* banner STyle */
 
 .banner{
@@ -93,4 +121,88 @@ nav li a{
 .banner_img{
   width: 584px;
   height: 676px;
+}
+
+/* abut style */
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.about_items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.item_title{
+  margin-bottom: 0px;
+  color: #474747;
+  font-size: 20px;
+}
+
+.item_description{
+  margin-top: 0px;
+  color: #757575;
+  font-size: 20px;
+}
+
+/* What i do style */
+
+.skills{
+  margin-top: 130px;
+  margin-bottom: 130px;
+  /* padding: 0 116px; */
+}
+
+.description_padding{
+  padding: 0 116px;
+} 
+
+.skills_container{
+  display: flex;
+  text-align: left;
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume style */
+
+.resume_container{
+  display: flex;
+  gap: 71px;
+  text-align: left;
+}
+
+.resume button{
+  margin-top: 50px;
+  margin-bottom: 113px;
+  margin-bottom: 113px;
+}
+
+/* footer style */
+
+.footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 109px;
+}
+.footer_column{
+  width: 50%;
+}
+
+footer input[type="text"] , footer input[type="email"],footer textarea{
+  display: flex;
+  width: 100%;
+  height: 64px;
+  border-radius: 5px;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  border: none;
 }
