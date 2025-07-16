@@ -214,7 +214,7 @@ footer input[type="text"] , footer input[type="email"],footer textarea{
 
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
   /* <!-- What i do section start --> */
   .skills_container ,
   .main ,
