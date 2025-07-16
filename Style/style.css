@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 .open-sans-normal{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -209,9 +211,7 @@ footer input[type="text"] , footer input[type="email"],footer textarea{
 
 /* responsive media query */
 
-.hide{
-  display: none;
-}
+
 
 
 @media screen and (max-width:576px) {
@@ -222,8 +222,9 @@ footer input[type="text"] , footer input[type="email"],footer textarea{
   .about,
   .about_items{
       flex-direction: column;
-      max-width: 100%;
-      margin: 0px 0px;
+      margin: 0; 
+      padding: 0 10px; 
+      max-width: 100vw;
   }
 
   .nav{
